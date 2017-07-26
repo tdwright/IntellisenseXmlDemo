@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SharedLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:SharedLibrary.SharedClass">
+            <summary>
+            Contains all the shared stuff
+            </summary>
+        </member>
+        <member name="M:SharedLibrary.SharedClass.#ctor">
+            <summary>
+            Constructor for SharedClass
+            </summary>
+        </member>
+        <member name="M:SharedLibrary.SharedClass.MultiplyMagicNumber(System.Int32)">
+            <summary>
+            Multiplies the MagicNumber by another
+            </summary>
+            <param name="Multiplier">The number to mutiply the MagicNumber by</param>
+            <returns>MagicNumber multiplied by Multiplier</returns>
+        </member>
+        <member name="P:SharedLibrary.SharedClass.MagicNumber">
+            <summary>
+            Properties can have XML docs too!
+            </summary>
+        </member>
+        <member name="M:SharedLibrary.SharedClass.ReverseToString``1(``0)">
+            <summary>
+            Generics get a special element: typeparam
+            </summary>
+            <typeparam name="T">The type parameter</typeparam>
+            <param name="obj">The first parameter</param>
+            <returns>Return value</returns>
+        </member>
+        <member name="T:SharedLibrary.SharedStruct">
+            <summary>
+            Structs can have XML comments
+            </summary>
+        </member>
+        <member name="F:SharedLibrary.SharedStruct.IntA">
+            <summary>
+            Int A is best int
+            </summary>
+        </member>
+        <member name="F:SharedLibrary.SharedStruct.IntB">
+            <summary>
+            Int B is good too
+            </summary>
+        </member>
+    </members>
+</doc>
